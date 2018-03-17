@@ -1,0 +1,300 @@
+{
+	"info": {
+		"name": "maviance coding challenge",
+		"_postman_id": "b6b9ccc6-2008-4fe1-93a0-eb5da772f0ed",
+		"description": "requests for my api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/2/4/WEST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost/codeigniter-3.1.7/index.php/kingdom_play/create/6/7",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"kingdom_play",
+						"create",
+						"6",
+						"7"
+					]
+				},
+				"description": "first request to place the queen without the kingdom: error response"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/codeigniter-3.1.7/index.php/kingdom_play/create/6/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost/codeigniter-3.1.7/index.php/kingdom_play/create/6/7",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"kingdom_play",
+						"create",
+						"6",
+						"7"
+					]
+				},
+				"description": "request to create a kingdom"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/codeigniter-3.1.7/index.php/kingdom_play/create/6/8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/move",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"move"
+					]
+				},
+				"description": "another request to create a kingdom. it just update the existing kingdom in database"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/move",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/move",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"move"
+					]
+				},
+				"description": "another request to move the queen without creating the queen"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/LEFT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/LEFT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"rotation",
+						"LEFT"
+					]
+				},
+				"description": "another request to rotate the queen without creating the queen"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/LEFT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/2/4/NORTH",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"place",
+						"2",
+						"4",
+						"NORTH"
+					]
+				},
+				"description": "place the queen inside the kingdom"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/2/6/SOUTH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/2/6/SOUTH",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"place",
+						"2",
+						"6",
+						"SOUTH"
+					]
+				},
+				"description": "place the queen inside the kingdom "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/5/6/NORTH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/place/5/6/NORTH",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"place",
+						"5",
+						"6",
+						"NORTH"
+					]
+				},
+				"description": "place the queen inside the kingdom "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/move",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/move",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"move"
+					]
+				},
+				"description": "some mouvement"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/LEFT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/LEFT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"rotation",
+						"LEFT"
+					]
+				},
+				"description": "rotate to left"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/RIGHT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/rotation/RIGHT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"rotation",
+						"RIGHT"
+					]
+				},
+				"description": "rotate to right"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/codeigniter-3.1.7/index.php/queen_play/report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/codeigniter-3.1.7/index.php/queen_play/report",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"codeigniter-3.1.7",
+						"index.php",
+						"queen_play",
+						"report"
+					]
+				},
+				"description": "rotate to right"
+			},
+			"response": []
+		}
+	]
+}
