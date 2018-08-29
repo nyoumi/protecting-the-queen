@@ -14,7 +14,7 @@ who build web sites using PHP. i used it because it it faster and lightweight.
 composition
 **************************************
 
-my mian files are in:
+my main files are in:
  'application/classes' for classes files
  ''application/controllers ' for my controllers
  "application/models" for interactions with database
